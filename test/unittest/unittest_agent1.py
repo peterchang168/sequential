@@ -5,7 +5,7 @@ import time
 
 class UnitTestParallel(unittest.TestCase):
     def setUp(self):
-        time.sleep(10)
+        time.sleep(60)
         pass
 
     def tearDown(self):
