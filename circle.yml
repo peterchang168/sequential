@@ -4,6 +4,7 @@ machine:
 
 dependencies:
   post:
+    - npm install junit-viewer -g
     - pip install coverage
 
 test:
