@@ -10,6 +10,7 @@ test:
   override:
     - /bin/bash test/unittest_agent1.sh
     - /bin/bash test/unittest_agent2.sh
+    - /bin/bash test/unittest_agent3.sh
     #- /bin/bash:
     #    parallel: true
     #    files:
