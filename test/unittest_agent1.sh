@@ -9,4 +9,4 @@ nosetests -v -s -x --with-xunit --xunit-file=$CIRCLE_TEST_REPORTS/junit/agent1_u
 junit-viewer --results=$CIRCLE_TEST_REPORTS/junit/agent1_unit_result.xml --save=$CIRCLE_TEST_REPORTS/agent1_unit_result.html
 coverage xml -o $CIRCLE_TEST_REPORTS/junit/agent1_coverage.xml /tmp/agent1_test/agent1.py
 junit-viewer --results=$CIRCLE_TEST_REPORTS/junit/agent1_coverage.xml --save=$CIRCLE_TEST_REPORTS/agent1_coverage.html
-coverage html -d $CIRCLE_ARTIFACTS/coverage
+coverage html -d $CIRCLE_TEST_REPORTS/coverage
