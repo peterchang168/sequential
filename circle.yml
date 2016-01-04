@@ -6,6 +6,7 @@ dependencies:
   post:
     - npm install junit-viewer -g
     - pip install coverage
+    - git clone git@github.trendmicro.com:peter-l-chang/parallel.git
 
 test:
   override:
