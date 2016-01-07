@@ -5,7 +5,7 @@ machine:
 dependencies:
   post:
     - npm install junit-viewer -g
-    - pip install coverage
+    - pip install MySQL-python
     - git clone git@github.trendmicro.com:peter-l-chang/parallel.git
 
 test:
